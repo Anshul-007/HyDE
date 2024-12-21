@@ -9,7 +9,7 @@ if ! source "$(which hyde-shell)"; then
 fi
 scrDir=${scrDir:-$HOME/.local/lib/hyde}
 confDir="${confDir:-$XDG_CONFIG_HOME}"
-cacheDir="${HYDE_CACHE_HOME:-"${XDG_CACHE_HOME}/hyde"}"
+cacheDir="${cacheDir:-"${XDG_CACHE_HOME}/hyde"}"
 WALLPAPER="${cacheDir}/wall.set"
 
 # Converts and ensures background to be a png
