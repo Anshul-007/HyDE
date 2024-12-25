@@ -30,11 +30,12 @@ B = Backup - Backup the target
 
  Hyde core files 
 P|${HOME}/.config/hyde|config.toml|hyprland
-P|${HOME}/.config/hypr|hyde.conf animations.conf windowrules.conf keybindings.conf userprefs.conf monitors.conf|hyprland
+P|${HOME}/.config/hypr|hyde.conf animations.conf windowrules.conf keybindings.conf monitors.conf|hyprland
 P|${HOME}/.config/hypr|nvidia.conf|hyprland nvidia-utils
 P|${HOME}/.config/hypr/themes|theme.conf wallbash.conf colors.conf|hyprland
 P|${HOME}/.local/state|hyde|hyprland
 
+S|${HOME}/.config/hypr|userprefs.conf|hyprland
 S|${HOME}/.config/hypr|hyprland.conf|hyprland
 S|${HOME}/.local|bin|hyprland
 S|${HOME}/.config|gtk-3.0|nwg-look
@@ -56,7 +57,7 @@ P|${HOME}/.config/Code/User|settings.json|visual-studio-code-bin
 P|${HOME}/.config/VSCodium/User|settings.json|vscodium-bin
 
  Bar 
-P|${HOME}/.config/waybar|config.ctl|waybar
+S|${HOME}/.config/waybar|config.ctl|waybar
 S|${HOME}/.config/waybar|modules config.jsonc theme.css style.css|waybar
 
  Terminal 
@@ -64,13 +65,13 @@ P|${HOME}/.config|fish|fish
 P|${HOME}/.config|lsd|lsd
 S|${HOME}/.config|fastfetch|fastfetch
 S|${HOME}/.config/kitty|hyde.conf theme.conf|kitty
-P|${HOME}/.config/kitty|kitty.conf|kitty
+S|${HOME}/.config/kitty|kitty.conf|kitty
 
 
  File Explorer 
 P|${HOME}/.local/state|dolphinstaterc|dolphin
 P|${HOME}/.config|baloofilerc|dolphin
-P|${HOME}|.zshrc .p10k.zsh|zsh oh-my-zsh-git zsh-theme-powerlevel10k pokego-bin
+O|${HOME}|.zshrc .p10k.zsh|zsh oh-my-zsh-git zsh-theme-powerlevel10k pokego-bin
 S|${HOME}/.config/menus|applications.menu|dolphin
 S|${HOME}/.config|dolphinrc|dolphin
 S|${HOME}/.config|kdeglobals|dolphin
@@ -82,7 +83,7 @@ S|${HOME}/.local/share|dolphin|dolphin
 P|${HOME}/.config|libinput-gestures.conf|libinput-gestures
 
  Wayland 
-P|${HOME}/.config|spotify-flags.conf|spotify
+S|${HOME}/.config|spotify-flags.conf|spotify
 P|${HOME}/.config|code-flags.conf|code
 P|${HOME}/.config|code-flags.conf|visual-studio-code-bin
 P|${HOME}/.config|vscodium-flags.conf|vscodium-bin
