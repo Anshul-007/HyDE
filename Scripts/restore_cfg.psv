@@ -71,7 +71,7 @@ S|${HOME}/.config/kitty|kitty.conf|kitty
  File Explorer 
 P|${HOME}/.local/state|dolphinstaterc|dolphin
 P|${HOME}/.config|baloofilerc|dolphin
-O|${HOME}|.zshrc .p10k.zsh|zsh oh-my-zsh-git zsh-theme-powerlevel10k pokego-bin
+S|${HOME}|.zshrc .p10k.zsh|zsh oh-my-zsh-git zsh-theme-powerlevel10k pokego-bin
 S|${HOME}/.config/menus|applications.menu|dolphin
 S|${HOME}/.config|dolphinrc|dolphin
 S|${HOME}/.config|kdeglobals|dolphin
